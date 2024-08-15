@@ -5,7 +5,7 @@ Fine-tuning a pre-trained ResNet-50 on the Oxford 102 Flowers dataset, using the
 - **Dataset:** Oxford 102 Flower Database
 - **Source:**  https://www.robots.ox.ac.uk/~vgg/data/flowers/102
 
-This set contains images of flowers belonging to 102 different categories.
+This set contains images of flowers belonging to 102 different categories. Training was done using the `fastai` library, and the data pre-processing primarily using `Pandas`.
 
-For this project, I used the images from the file `102flowers.tgz` and the 
-images labels `imagelabels.mat`, available at the link provided. The training was done using the `fastai` library, and the data pre-processing primarily using `Pandas`.
+## Notes
+For this project, I used the images from the file `102flowers.tgz` and the images labels `imagelabels.mat`, available at the link provided. Unzip `102flowers.tgz`, and rename the resulting `jpg` file to `unsorted_images`. Ensure that this folder, `imagelabels.mat`, and the Jupyter Notebook are in the same folder before running the code cells.
